@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+:root{
+    --title_color: #489AFE;
+    --text_color: #636363;
+    --primary-button_color: #318DFE;
+    --primary-button_color-hover: #246DC8;
+    --secondary-button_color: rgba(49, 141, 254, 0.1);
+    --terciary-button_color: #318DFE;
+    --border-radius_buttons: 8px;
+    --container-width: 1080px;
+    --footer-color: #002A3F;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.navbar_container{
+    width: 1300px;
+    height: 115px;
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.navbar_item{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar_active{
+    font-weight: 600;
+}
+
+.btn{
+    padding: 8px 16px;
+    max-height: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    width: min-content;
+}
+
+.btn-contacto{
+    background-color: #1DC702;
+    color: white;
+}
+
+.btn-secondary{
+    border: 1px solid white;
+    color: white;
+}
+
+.banner_container{
+    width: 1300px;
+    height: 670px;
+    background-color: #202020;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+.banner_content{
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.banner_text h1, .banner_text p{
+    color: white;
+}
+
+.banner_text p{
+    font-size: 20px;
+    line-height: 30px;
+}
