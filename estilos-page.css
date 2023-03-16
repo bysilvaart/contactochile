@@ -176,12 +176,18 @@ h2{
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    text-align: center;
+    width: 860px;
 }
 
 
 .internalizacion_container>.cards_container{
     display: flex;
     gap: 40px;
+}
+
+.internalizacion_titulo>img{
+    width: 75px;
 }
 
 .internalizacion_container .card{
@@ -400,7 +406,7 @@ form>.content{
     gap: 15px;
 
     width: 100%;
-    height: 200px;
+    height: 260px;
 }
 
 .somos_container img{
