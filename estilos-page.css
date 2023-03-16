@@ -23,6 +23,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     align-items: center;
     justify-content: flex-start;
     font-family: 'Inter', sans-serif;
@@ -415,4 +416,33 @@ form>.content{
 
 .somos_container p{
     font-size: 20px;
+}
+
+.mapa_container{
+    width: 1250px;
+    background-color: white;
+    padding: 80px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    gap: 30px;
+}
+
+.mapa_container>img{
+    width: 720px;
+}
+
+.servicio-confidencialidad{
+    display: flex;
+    gap: 10px;
+    width: 620px;
+    align-items: center;
+}
+
+.servicio-confidencialidad>img{
+    width: 130px;
 }
