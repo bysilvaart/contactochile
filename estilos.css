@@ -326,10 +326,10 @@ footer a{
 }
 
 .banner_cliente{
-    width: 900px;
+    width: 845px;
     height: 400px;
     background-color: #636363;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .clientes_container>p{
