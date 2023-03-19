@@ -124,7 +124,8 @@ h2{
 .banner_container{
     width: 1300px;
     height: 670px;
-    background-color: #202020;
+    background-image: url(img/banner_principal.jpg);
+    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
