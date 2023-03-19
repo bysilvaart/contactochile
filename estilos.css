@@ -26,6 +26,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     font-family: 'Inter', sans-serif;
+    gap: 40px;
 }
 
 header{
@@ -394,4 +395,148 @@ footer a{
 
 .clientes_container>img{
     width: 75px;
+}
+
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+form, .contactos_container, .acceso-directo_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form{
+    width: 340px;
+}
+
+form input{
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    color: #CFCFCF;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height:12px;
+}
+
+form textarea{
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    color: #CFCFCF;
+    height: 246px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+}
+
+.form_datos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 400px;
+}
+
+
+form>.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end ;
+}
+
+form>.content>input, form>.content>textarea{
+    width: 100%;
+}
+
+.contactos_container>.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactos_container>.content>a>img{
+    width: 26px;
+    
+}
+
+.contactos_container>.content>a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #303030;
+    align-items: center;
+}
+
+.acceso-directo_container>.content{
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.acceso-directo_container>.content .btn{
+    width: 100% !important;
+}
+
+.btn-form{
+    padding: 8px 16px;
+    max-height: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    width: min-content;
+    background: #00A2C8;
+    border: none;
+    color: white;
+}
+
+
+.contacto_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items:  center;
+    padding: 60px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+.contacto_container>.puntos>img{
+    width: 250px;
+}
+
+.contacto_container>.puntos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
 }
