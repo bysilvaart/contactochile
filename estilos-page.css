@@ -178,11 +178,21 @@ h2{
     line-height: 30px;
 }
 
+.main_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1250px;
+    background-color: white;
+    padding: 80px;
+    border-radius: 8px;
+    align-items: center;
+}
+
 .internalizacion_container{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 80px;
     align-items: center;
 }
 
@@ -454,9 +464,104 @@ form>.content{
     display: flex;
     gap: 10px;
     width: 620px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .servicio-confidencialidad>img{
     width: 130px;
+}
+
+.documentos_container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.documentos_container>.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.documentos_container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.documentos_container>img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.documentos_container h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.servicio-confidencialidad{
+    display: flex;
+    gap: 20px;
+    width: 800px;
+    align-items: center;
+}
+
+.servicio-confidencialidad>img{
+    width: 190px;
+}
+
+.divider-horizontal{
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.otros-servicios_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.otros-servicios_container>.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.otros-servicios_container>.titulo>img{
+    width: 70px;
+}
+
+.otros-servicios_container>.titulo>h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.otros-servicios_container>.cards{
+    display: flex;
+    gap: 40px;
+}
+
+.otros-servicios_container>.cards>.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+}
+
+.otros-servicios_container>.cards>.card>img{
+    width: 100%;
+}
+
+.otros-servicios_container>.cards>.card>.texto{
+    padding: 30px;
+}
+
+.otros-servicios_container>.cards>.card p{
+    text-align: center;
 }
