@@ -133,13 +133,27 @@ h2{
 .banner_container-page{
     width: 1300px;
     height: 300px;
-    background-color: #202020;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 150px;
     padding: 80px;
     border-radius: 20px;
+}
+
+#banner_traduccion{
+    background-image: url(img/banner_traduccion.jpg);
+    background-size: cover;
+}
+
+#banner_interpretacion{
+    background-image: url(img/banner_interpretacion.jpg);
+    background-size: cover; 
+}
+
+#banner_conferencias{
+    background-image: url(img/banner_conferencias.jpg);
+    background-size: cover; 
 }
 
 .banner_content{
