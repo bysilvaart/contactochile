@@ -659,3 +659,81 @@ form>.content{
     font-weight: 700;
     font-size: 20px;
 }
+
+.company_container{
+    width: 1250px;
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 30px;
+}
+
+.company_container>.cards_container{
+    display: flex;
+    gap: 20px;
+}
+
+.company_container>.cards_container>.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    text-align: center;
+}
+
+
+.company_container>.cards_container img{
+    width: 220px;
+}
+
+.company_container>img{
+    width: 75px;
+}
+
+.company_container>.iconos_companies{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.company_container>.iconos_companies>.company{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.company_container>.iconos_companies>.company>img{
+    width: 70px;
+}
+
+.company_container>.iconos_companies>.company>h4{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.company_container>.iconos_companies>.company>p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.company_container>.iconos_companies>.divider{
+    width: 1px;
+    height: 130px;
+    background-color: #D9D9D9;
+}
