@@ -618,3 +618,44 @@ form>.content{
     font-weight: 400;
     font-size: 14px;
 }
+
+.lenguajes_container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 80px;
+}
+
+.lenguajes_container>.textos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lenguajes_container>.textos>.lista{
+    display: flex;
+    gap: 20px;
+}
+
+.lenguajes_container>.textos>.lista{
+    display: flex;
+    gap: 20px;
+}
+
+.lenguajes_container>.textos>.lista>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.lenguajes_container>img{
+    width: 480px;
+}
+
+.lenguajes_container h3{
+    font-weight: 700;
+    font-size: 20px;
+}
