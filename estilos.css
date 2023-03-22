@@ -35,6 +35,7 @@ header{
     display: flex;
     justify-content: center;
     top: 0;
+    z-index: 10;
 }
 
 h1{
@@ -140,27 +141,28 @@ h2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 80px;
     border-radius: 0px 0px 50px 50px;
+    position: relative;
+    overflow: hidden;
 }
 
-.banner_container-page{
-    width: 1300px;
-    height: 3000px;
-    background-color: #202020;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 120px;
-    padding: 80px;
-    border-radius: 0px 0px 50px 50px;
+.banner_container video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    z-index: 0;
 }
+
 
 .banner_content{
     width: 710px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: absolute;
+    z-index: 1;
+    padding-left: 80px;
 }
 
 .banner_text{
