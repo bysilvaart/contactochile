@@ -51,7 +51,19 @@ h2{
     line-height: 30px;
 }
 
-.navbar_container-page{
+.navbar_container{
+    width: 1300px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_container>img{
+    height: 80px;
+}
+
+.navbar_opciones{
     width: 1300px;
     height: 115px;
     display: flex;
@@ -59,16 +71,15 @@ h2{
     justify-content: flex-end;
     align-items: center;
     padding: 40px;
-
 }
 
-.navbar_container>.navbar_item{
+.navbar_container .navbar_item{
     text-decoration: none;
-    color: white;
+    color: #202020;
     font-size: 16px;
 }
 
-.navbar_container-page>.navbar_item{
+.navbar_container-page .navbar_item{
     text-decoration: none;
     color: #303030;
     font-size: 16px;

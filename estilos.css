@@ -53,11 +53,22 @@ h2{
     width: 1300px;
     height: 115px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_container>img{
+    height: 80px;
+}
+
+.navbar_opciones{
+    width: 1300px;
+    height: 115px;
+    display: flex;
     gap: 60px;
     justify-content: flex-end;
     align-items: center;
     padding: 40px;
-
 }
 
 .navbar_container-page{
@@ -71,13 +82,13 @@ h2{
 
 }
 
-.navbar_container>.navbar_item{
+.navbar_container .navbar_item{
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
 
-.navbar_container-page>.navbar_item{
+.navbar_container-page .navbar_item{
     text-decoration: none;
     color: #303030;
     font-size: 16px;
