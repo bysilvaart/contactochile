@@ -344,8 +344,9 @@ footer a{
 
 .banner_cliente{
     width: 845px;
-    height: 400px;
-    background-color: #636363;
+    height: 600px;
+    background-image: url(img/logos_desktop.png);
+    background-size: cover;
     border-radius: 20px;
 }
 
