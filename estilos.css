@@ -546,6 +546,11 @@ form>.content>input, form>.content>textarea{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 40px;
-    width: 100%;
+    padding-left: 20px;
+    width: 250px;
+}
+
+
+.internalizacion_container>.cards_container>.card>img{
+    border-radius: 20px;
 }
