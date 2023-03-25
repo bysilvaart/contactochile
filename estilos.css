@@ -597,8 +597,9 @@ form>.content>input, form>.content>textarea{
     }
 
 
-    .contacto_container{
+    .contacto_container, .clientes_background{
         box-shadow: none;
+        padding: 0;
     }
 
     .form_container{
@@ -625,5 +626,54 @@ form>.content>input, form>.content>textarea{
     .puntos, .acceso-directo_container{
         text-align: center;
     }
-    
+    .clientes_container, .section_titulo, .card-comentario_container
+    {
+        width: 100%;
+    }
+    .banner_cliente{
+        background-image: url(img/logos_mobile.png);
+        background-size: contain;
+        width: 100%;
+    }
+
+    .clientes_container{
+        padding: 20px;
+        border: none;
+    }
+
+    .clientes_container .section_titulo{
+        text-align: center;
+    }
+
+    .card-comentario_container{
+        padding: 30px;
+        gap: 20px;
+        width: 98%;
+    }
+
+    .card-comentario_container>img{
+        width: 40px;
+    }
+
+    .card-comentario_container .comentario{
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .card-comentario_container .persona{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .card-comentario_container .arrow_left{
+        left: -20px;
+    }
+
+    .card-comentario_container .arrow_right{
+        right: -20px;
+    }
+
+    .form_container h2, .form_container h3{
+        text-align: center;
+    }
 }
