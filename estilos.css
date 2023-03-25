@@ -595,4 +595,35 @@ form>.content>input, form>.content>textarea{
         align-items: center;
         padding: 0;
     }
+
+
+    .contacto_container{
+        box-shadow: none;
+    }
+
+    .form_container{
+        flex-direction: column;
+    }
+
+    .form_container>.divider-vertical{
+        display: none;
+    }
+
+    .form_datos{
+        width: 100%;
+    }
+
+    .form_datos .content{
+        width: 100%;
+    }
+
+    .form_datos .content a{
+        width: 100%;
+        height: 48px;
+    }
+
+    .puntos, .acceso-directo_container{
+        text-align: center;
+    }
+    
 }
