@@ -701,4 +701,32 @@ form>.content>input, form>.content>textarea{
         align-items: center;
         text-align: center;
     }
+
+    .internalizacion_container{
+        padding: 15px;
+    }
+
+    .internalizacion_container .cards_container{
+        flex-direction: column;
+    }
+
+    .internalizacion_container .divider-vertical{
+        display: none;
+    }
+
+    .internalizacion_titulo h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .internalizacion_container>.cards_container{
+        gap: 60px;
+    }
+
+    .cards_container, .card>img, .card>ul{
+        width: 100% !important;
+    }
+
+    
+
 }
