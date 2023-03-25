@@ -676,4 +676,29 @@ form>.content>input, form>.content>textarea{
     .form_container h2, .form_container h3{
         text-align: center;
     }
+
+    .equipo_container{
+        padding: 30px 15px;
+    }
+
+    .equipo_container .nuestro-equipo{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .equipo_container .nuestro-equipo img{
+        width: 90%;
+    }
+
+    .equipo_container .sello{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .equipo_container .textos{
+        align-items: center;
+        text-align: center;
+    }
 }
