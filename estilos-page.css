@@ -752,3 +752,56 @@ form>.content{
     background-color: #D9D9D9;
 }
 
+
+@media screen and (max-width: 500px) {
+    footer, .footer_content{
+        flex-direction: column;
+        height: auto;
+        position: initial !important;
+    }
+
+    footer{
+        padding: 60px 30px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .footer_content{
+        gap: 20px;
+    }
+
+    .footer_list{
+        position: fixed;
+        height: auto !important;
+        position: initial;
+        align-items: center;
+        padding: 0;
+    }
+
+
+    h1{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 30px;
+    }
+    
+    .banner_text{
+        gap: 10px;
+    }
+
+    .navbar_opciones{
+        display: none;
+    }
+    .navbar_container{
+        width: 100%;
+    }
+    
+    .navbar_container>img{
+        height: 60px;
+    }
+
+    .somos_container{
+        text-align: center;
+    }
+
+}
