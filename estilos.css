@@ -571,6 +571,10 @@ form>.content>input, form>.content>textarea{
     border-radius: 20px;
 }
 
+.arrow_left, .arrow_right {
+      cursor: pointer;
+    }
+
 @media screen and (max-width: 500px) {
     footer, .footer_content{
         flex-direction: column;
@@ -765,7 +769,7 @@ form>.content>input, form>.content>textarea{
     .navbar_container{
         width: 100%;
     }
-    
+
     .navbar_container>img{
         height: 60px;
     }
