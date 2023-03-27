@@ -759,4 +759,15 @@ form>.content>input, form>.content>textarea{
         gap: 10px;
     }
 
+    .navbar_opciones{
+        display: none;
+    }
+    .navbar_container{
+        width: 100%;
+    }
+    
+    .navbar_container>img{
+        height: 60px;
+    }
+
 }
