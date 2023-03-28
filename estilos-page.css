@@ -59,7 +59,7 @@ h2{
     align-items: center;
 }
 
-.navbar_container>img{
+.navbar_container>a>img{
     height: 80px;
 }
 
@@ -786,7 +786,7 @@ form>.content{
     }
     
     .banner_text{
-        gap: 10px;
+        gap: 5px;
     }
 
     .navbar_opciones{
@@ -796,7 +796,7 @@ form>.content{
         width: 100%;
     }
     
-    .navbar_container>img{
+    .navbar_container>a>img{
         height: 60px;
     }
 
@@ -804,4 +804,93 @@ form>.content{
         text-align: center;
     }
 
+    .form_container{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .form_container>.divider-vertical{
+        display: none;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .card-equipamiento_container{
+        width: 100%;
+    }
+
+    .card-equipamiento_container>.card_textos{
+        flex-direction: column;
+    }
+
+    .card-equipamiento_container>.card_textos>.divider-card{
+        display: none;
+    }
+
+    .main_container{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .servicio-confidencialidad{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-confidencialidad>img{
+        width: 90px;
+    }
+
+    .servicio-confidencialidad{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .documentos_container{
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .documentos_container>img{
+        width: 100%;
+    }
+
+    .internalizacion_titulo{
+        width: 100%;
+    }
+
+    .internalizacion_titulo>p{
+        width: 100%;
+    }
+
+    .internalizacion_titulo>h2{
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .banner_container-page{
+        width: 95%;
+        padding: 20px;
+        align-items: flex-end;
+        margin-top: 80px;
+    }
+
+    .banner_content{
+        width: 100%;
+    }
+    .banner_text p, .banner_bajada{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    h1{
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .navbar_container{
+        height: 60px;
+    }
 }
