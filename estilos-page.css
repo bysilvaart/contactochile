@@ -893,4 +893,12 @@ form>.content{
     .navbar_container{
         height: 60px;
     }
+
+    .acceso-directo_container>.content{
+        width: 100%;
+    }
+
+    form, .contactos_container, .acceso-directo_container{
+        text-align: center;
+    }
 }
