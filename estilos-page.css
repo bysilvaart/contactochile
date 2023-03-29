@@ -30,6 +30,27 @@ body{
     background: radial-gradient(35.31% 292.9% at 50% 50%, #FBFBFB 0%, #F7F7F7 100%);
 }
 
+
+#mainHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 115px;
+    z-index: 1000;
+    transition: height 0.3s ease, background-color 0.3s ease;
+    overflow: hidden;
+  }
+  
+  /* Añade esta clase cuando se haga scroll */
+  .header-scrolled {
+    height: 60px !important;
+    background-color: #FFFFFF;
+    transition: height 0.3s ease, background-color 0.3s ease;
+  }
+  
+
+
 header{
     background-color: white;
     position: absolute;
@@ -53,7 +74,6 @@ h2{
 
 .navbar_container{
     width: 1300px;
-    height: 115px;
     display: flex;
     justify-content: space-between;
     align-items: center;
