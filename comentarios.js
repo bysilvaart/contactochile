@@ -17,7 +17,7 @@ const comentarios = [
     },
     {
         autor: "Daniela Herzog - Delegación de la Unión Europea en Chile - Sección Política, Prensa e Información ",
-        mensaje: "“Querida Andrea, ell servicio de interpretación salió muy bien. El intérprete presta un servicio muy discreto, correcto, claro, es muy puntual, llegó con antelación y explicó perfectamente a todos cómo usar los equipos [inalámbricos]. Así que facilitó perfectamente la comunicación en las reuniones”"
+        mensaje: "“Querida Andrea, el servicio de interpretación salió muy bien. El intérprete presta un servicio muy discreto, correcto, claro, es muy puntual, llegó con antelación y explicó perfectamente a todos cómo usar los equipos [inalámbricos]. Así que facilitó perfectamente la comunicación en las reuniones”"
     },
     {
         autor: "Barbara HOSTENS - Coordination IAP & President's requests - European Parliament ",

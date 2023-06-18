@@ -229,6 +229,10 @@ h2{
     align-items: center;
 }
 
+.servicios-title{
+    font-size: 22px;
+}
+
 .internalizacion_container>.cards_container{
     display: flex;
     gap: 40px;
@@ -288,7 +292,7 @@ h2{
     display: flex;
     align-items: center;
     gap: 15px;
-    width: 460px;
+    max-width: 660px;
 }
 
 .equipo_container .sello>img{
@@ -298,6 +302,18 @@ h2{
 .equipo_container .sello>p{
     font-size: 12px;
 }
+
+.sello_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.row_redes-sociales{
+    display: flex;
+    gap: 8px;
+}
+
 
 footer{
     width: 100%;
@@ -534,7 +550,7 @@ form>.content>input, form>.content>textarea{
 }
 
 .acceso-directo_container>.content{
-    width: 190px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -600,7 +616,7 @@ form>.content>input, form>.content>textarea{
       cursor: pointer;
     }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 980px) {
     footer, .footer_content{
         flex-direction: column;
         height: auto;

@@ -144,9 +144,18 @@ h2{
     width: max-content;
 }
 
+
 .btn-contacto{
     background-color: #1DC702;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-right: 20px;
+}
+
+.btn-contacto img{
+    width: 24px;
 }
 
 .btn-secondary{
@@ -302,8 +311,15 @@ h2{
     display: flex;
     align-items: center;
     gap: 15px;
-    width: 460px;
+    width: 660px;
 }
+
+.sello_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 
 .equipo_container .sello>img{
     width: 75px;
@@ -445,7 +461,7 @@ form>.content{
 }
 
 .acceso-directo_container>.content{
-    width: 190px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -773,7 +789,8 @@ form>.content{
 }
 
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 960px) {
     footer, .footer_content{
         flex-direction: column;
         height: auto;
