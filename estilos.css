@@ -509,8 +509,14 @@ form textarea{
     flex-direction: column;
     gap: 40px;
     width: 400px;
+    align-items: center;
 }
 
+.contactos_container, .contactos_container>.container, .row_redes-sociales, .row_redes-sociales a, .acceso-directo_container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 form>.content{
     display: flex;
@@ -540,12 +546,12 @@ form>.content>input, form>.content>textarea{
     text-decoration: none;
     color: #303030;
     align-items: center;
+    justify-content: center;
 }
 
 .acceso-directo_container>.content{
-    width: 210px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 10px;
 }
 

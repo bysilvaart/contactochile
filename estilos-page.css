@@ -383,11 +383,13 @@ footer a{
 .form_container{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     border-radius: 5px;
-    gap: 40px;
-    width: 1250px;
     padding: 80px;
+    gap: 50px;
+    width: 100%;
+
 }
 
 form, .contactos_container, .acceso-directo_container {
@@ -435,11 +437,39 @@ form textarea{
     overflow: hidden;
 }
 
+.form_datos{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 400px;
+    align-items: center;
+}
+
+
+.contactos_container, .contactos_container>.container, .row_redes-sociales, .row_redes-sociales a, .acceso-directo_container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacto_container{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+}
+
 
 form>.content{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: flex-end ;
+}
+
+
+form>.content>input, form>.content>textarea{
+    width: 100%;
 }
 
 .contactos_container>.content{
@@ -459,18 +489,19 @@ form>.content{
     text-decoration: none;
     color: #303030;
     align-items: center;
+    justify-content: center;
 }
 
 .acceso-directo_container>.content{
-    width: 210px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 10px;
 }
 
 .acceso-directo_container>.content .btn{
     width: 100% !important;
 }
+
 
 .somos_container{
     display: flex;
