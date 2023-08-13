@@ -384,12 +384,9 @@ footer a{
     padding: 40px;
 }
 
-.banner_cliente{
-    width: 845px;
-    height: 600px;
-    background-image: url(img/logos_desktop.png);
-    background-size: cover;
-    border-radius: 20px;
+.logos-clientes{
+    width: 100%;
+
 }
 
 .clientes_container>p{
@@ -451,11 +448,6 @@ footer a{
     color: #ADADAD;
 
 }
-
-.clientes_container>img{
-    width: 75px;
-}
-
 
 .form_container{
     display: flex;
