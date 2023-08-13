@@ -69,6 +69,24 @@ h2{
     line-height: 30px;
 }
 
+
+.clientes{
+    width: 100%;
+    max-width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.clientes>p{
+    background: #f0f9fb;
+    border-radius: 20px;
+    padding: 4px 12px;
+    text-align: center;
+    border: 1px solid #a6daff;
+}
+
 .navbar_container{
     width: 1300px;
     display: flex;
