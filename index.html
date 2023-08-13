@@ -204,21 +204,22 @@
             const navbarOpciones = document.querySelector(".navbar_opciones");
             const mainHeader = document.getElementById("mainHeader-index");
             const navbarBlack = document.getElementById("navbar_container");
+            const hamburgerBtn = document.querySelector(".hamburger-index"); // Seleccionamos el botón
 
             navbarOpciones.classList.toggle("show");
+            
+            // Cambio del icono de hamburguesa a "X" y viceversa
+            hamburgerBtn.classList.toggle("x");
 
             if (navbarOpciones.classList.contains("show")) {
                 mainHeader.classList.add("header-open");
-            } else {
-                mainHeader.classList.remove("header-open");
-            }
-
-            if (navbarOpciones.classList.contains("show")) {
                 navbarBlack.classList.add("navbar-black");
             } else {
+                mainHeader.classList.remove("header-open");
                 navbarBlack.classList.remove("navbar-black");
-            }
+            } 
         });
+
     </script>
 
     <script src="comentarios.js"></script>
@@ -228,3 +229,4 @@
 
 </body>
 </html>
+

@@ -144,18 +144,41 @@
     </footer>
 
     <script>
-        document.getElementById("menu-btn").addEventListener("click", function() {
-            const navbarOpciones = document.querySelector(".navbar_opciones");
-            const mainHeader = document.getElementById("mainHeader");
+        const menuBtn = document.getElementById("menu-btn");
+        const navbarOpciones = document.querySelector(".navbar_opciones");
+        const mainHeader = document.getElementById("mainHeader");
+        const mainHeaderIndex = document.getElementById("mainHeader-index"); 
+        const headerHeight = 115;
 
+        menuBtn.addEventListener("click", function() {
             navbarOpciones.classList.toggle("show");
+            
+            // Cambio del icono de hamburguesa a "X" y viceversa
+            menuBtn.classList.toggle("x");
 
             if (navbarOpciones.classList.contains("show")) {
-                mainHeader.classList.add("header-open");
+                mainHeader.classList.add("header-scrolled");
             } else {
-                mainHeader.classList.remove("header-open");
+                mainHeader.classList.remove("header-scrolled");
             }
         });
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > headerHeight) {
+                mainHeader.classList.add("header-scrolled");
+            } else {
+                mainHeader.classList.remove("header-scrolled");
+            }
+        });
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > headerHeight) {
+                mainHeaderIndex.classList.add("header-scrolled");
+            } else {
+                mainHeaderIndex.classList.remove("header-scrolled");
+            }
+        });
+
     </script>
     <script src="main.js"></script>
 

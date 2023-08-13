@@ -104,6 +104,7 @@ header{
     padding: 0;
     box-sizing: border-box;
     margin-right: 10px;
+    position: relative;
 }
 
 .hamburger-index span {
@@ -125,6 +126,7 @@ header{
     padding: 0;
     box-sizing: border-box;
     margin-right: 10px;
+    position: relative;
 }
 
 .hamburger span {
@@ -133,6 +135,50 @@ header{
     background-color: #202020;
     display: block;
 }
+
+.hamburger-index span {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+/* Ocultar la línea del medio cuando se convierta en "X" */
+.hamburger-index.x span:nth-child(2) {
+    opacity: 0;
+    transform: translateY(9px);  /* Agregado para mejorar la transición */
+}
+
+/* Rotar la línea de arriba y la línea de abajo para formar la "X" */
+.hamburger-index.x span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger-index.x span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: #202020;
+    display: block;
+}
+
+.hamburger span {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+/* Ocultar la línea del medio cuando se convierta en "X" */
+.hamburger.x span:nth-child(2) {
+    opacity: 0;
+    transform: translateY(9px);  /* Agregado para mejorar la transición */
+}
+
+/* Rotar la línea de arriba y la línea de abajo para formar la "X" */
+.hamburger.x span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.x span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
 
 @media (max-width: 980px) {
     .hamburger {
