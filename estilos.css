@@ -30,33 +30,6 @@ body{
     gap: 40px;
 }
 
-#mainHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 115px;
-    z-index: 1000;
-    transition: height 0.3s ease, background-color 0.3s ease;
-  }
-  
-  /* Añade esta clase cuando se haga scroll */
-  .header-scrolled {
-    height: 60px !important;
-    background-color: #202020aa;
-    transition: height 0.3s ease, background-color 0.3s ease;
-  }
-  
-
-header{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    top: 0;
-    z-index: 10;
-}
-
 h1{
     font-weight: 700;
     font-size: 50px;
@@ -87,53 +60,6 @@ h2{
     border: 1px solid #a6daff;
 }
 
-.navbar_container{
-    width: 1300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar_container>img{
-    height: 80px;
-}
-
-.navbar_opciones{
-    height: 115px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-.navbar_container-page{
-    width: 1300px;
-    height: 115px;
-    display: flex;
-    gap: 60px;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 40px;
-
-}
-
-.navbar_container .navbar_item{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-}
-
-.navbar_container-page .navbar_item{
-    text-decoration: none;
-    color: #303030;
-    font-size: 16px;
-}
-
-
-.navbar_active{
-    font-weight: 600;
-}
 
 .btn{
     padding: 8px 16px;

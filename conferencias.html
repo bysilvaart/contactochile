@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos-page.css">
+    <link rel="stylesheet" href="navbar.css">
     <title>Contacto Chile - Traducción</title>
 </head>
 <body>
     <header id="mainHeader">
         <div class="navbar_container">
-            <a href="index.html"><img src="img/logo_bg-blanco.gif" alt=""></a>            <div class="navbar_opciones">
+            <a href="index.html"><img src="img/logo_bg-blanco.gif" alt=""></a>            
+            <div class="navbar_opciones">
                 <a href="index.html" class="navbar_item">Inicio</a>
                 <a href="interpretacion.html" class="navbar_item">Interpretación</a>
                 <a href="traduccion.html" class="navbar_item ">Traducción</a>
                 <a href="nosotros.html" class="navbar_item">Nosotros</a>
                 <a href="conferencias.html" class="navbar_item navbar_active">Conferencias</a>
-                <a href="https://api.whatsapp.com/send?phone=56999793376&text=Hola+ContactoChile+Comunicaciones" class="btn btn-contacto"><img src="img/whatsapp.svg" alt="">Contactar</a>            </div>
+                <a href="https://api.whatsapp.com/send?phone=56999793376&text=Hola+ContactoChile+Comunicaciones" class="btn btn-contacto"><img src="img/whatsapp.svg" alt="">Contactar</a>            
+            </div>
+            <button id="menu-btn" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
@@ -145,6 +153,21 @@
             <a href="">Blog</a>
         </div>
     </footer>
+
+    <script>
+        document.getElementById("menu-btn").addEventListener("click", function() {
+            const navbarOpciones = document.querySelector(".navbar_opciones");
+            const mainHeader = document.getElementById("mainHeader");
+
+            navbarOpciones.classList.toggle("show");
+
+            if (navbarOpciones.classList.contains("show")) {
+                mainHeader.classList.add("header-open");
+            } else {
+                mainHeader.classList.remove("header-open");
+            }
+        });
+    </script>
     <script src="main.js"></script>
 
 </body>

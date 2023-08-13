@@ -32,35 +32,6 @@ body{
 }
 
 
-#mainHeader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 115px;
-    z-index: 1000;
-    transition: height 0.3s ease, background-color 0.3s ease;
-    overflow: hidden;
-  }
-  
-  /* Añade esta clase cuando se haga scroll */
-  .header-scrolled {
-    height: 60px !important;
-    background-color: #FFFFFF;
-    transition: height 0.3s ease, background-color 0.3s ease;
-  }
-  
-
-
-header{
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    top: 0;
-}
-
 h1{
     font-weight: 700;
     font-size: 50px;
@@ -71,43 +42,6 @@ h2{
     font-weight: 700;
     font-size: 30px;
     line-height: 30px;
-}
-
-.navbar_container{
-    width: 1300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar_container>a>img{
-    height: 80px;
-}
-
-.navbar_opciones{
-    height: 115px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-.navbar_container .navbar_item{
-    text-decoration: none;
-    color: #202020;
-    font-size: 16px;
-}
-
-.navbar_container-page .navbar_item{
-    text-decoration: none;
-    color: #303030;
-    font-size: 16px;
-}
-
-
-.navbar_active{
-    font-weight: 600;
 }
 
 .btn{

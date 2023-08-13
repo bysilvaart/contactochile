@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>TRADUCCIÓN E INTERPRETACIÓN</title>
 </head>
 <body>
    
-    <header id="mainHeader">
-        <div class="navbar_container">
+    <header id="mainHeader-index">
+        <div id="navbar_container" class="navbar_container">
             <img src="img/logo_bg-negro.gif" alt="">
-            <div class="navbar_opciones">
-                <a href="index.html" class="navbar_item navbar_active">Inicio</a>
-                <a href="interpretacion.html" class="navbar_item">Interpretación</a>
-                <a href="traduccion.html" class="navbar_item ">Traducción</a>
-                <a href="nosotros.html" class="navbar_item">Nosotros</a>
-                <a href="conferencias.html" class="navbar_item">Conferencias</a>
+            <button id="menu-btn" class="hamburger-index">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar_opciones">   
+                <a href="index.html" class="navbar_item-index navbar_active">Inicio</a>
+                <a href="interpretacion.html" class="navbar_item-index">Interpretación</a>
+                <a href="traduccion.html" class="navbar_item-index ">Traducción</a>
+                <a href="nosotros.html" class="navbar_item-index">Nosotros</a>
+                <a href="conferencias.html" class="navbar_item-index">Conferencias</a>
                 <a href="https://api.whatsapp.com/send?phone=56999793376&text=Hola+ContactoChile+Comunicaciones" class="btn btn-contacto"><img src="img/whatsapp.svg" alt="">Contactar</a>
             </div>
+            
         </div>
     </header>
 
@@ -101,7 +108,7 @@
                 <p>Más de 15 años de experiencia en el mercado nos avalan</p>
             </div>
             <img src="img/logos_desktop.png" alt="" class="logos-clientes">
-            
+
             <p><b>Más de nuestros valiosos clientes:</b></p>
 
             <div class="clientes">
@@ -191,6 +198,29 @@
             <a href="">Blog</a>
         </div>
     </footer> 
+
+    <script>
+        document.getElementById("menu-btn").addEventListener("click", function() {
+            const navbarOpciones = document.querySelector(".navbar_opciones");
+            const mainHeader = document.getElementById("mainHeader-index");
+            const navbarBlack = document.getElementById("navbar_container");
+
+            navbarOpciones.classList.toggle("show");
+
+            if (navbarOpciones.classList.contains("show")) {
+                mainHeader.classList.add("header-open");
+            } else {
+                mainHeader.classList.remove("header-open");
+            }
+
+            if (navbarOpciones.classList.contains("show")) {
+                navbarBlack.classList.add("navbar-black");
+            } else {
+                navbarBlack.classList.remove("navbar-black");
+            }
+        });
+    </script>
+
     <script src="comentarios.js"></script>
     <script src="main.js"></script>
     <script src="contacto.js"></script>
