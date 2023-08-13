@@ -10,6 +10,7 @@
     --border-radius_buttons: 8px;
     --container-width: 1080px;
     --footer-color: #002A3F;
+    --max-width-mobile: 620px;
 }
 
 *{
@@ -649,6 +650,18 @@ form>.content>input, form>.content>textarea{
 
     .form_container{
         flex-direction: column;
+        width: 100%;
+    }
+
+    .contacto_container{
+        padding: 30px;
+        width: 100%;
+        max-width: var(--max-width-mobile);
+    }
+
+    form{
+        width: 100%;
+        max-width: var(--max-width-mobile);
     }
 
     .form_container>.divider-vertical{
@@ -673,6 +686,7 @@ form>.content>input, form>.content>textarea{
     .clientes_container, .section_titulo, .card-comentario_container
     {
         width: 100%;
+        max-width: var(--max-width-mobile);
     }
     .banner_cliente{
         background-image: url(img/logos_mobile.png);
@@ -728,6 +742,7 @@ form>.content>input, form>.content>textarea{
     .equipo_container .nuestro-equipo{
         flex-direction: column;
         width: 100%;
+        max-width: var(--max-width-mobile);
     }
 
     .equipo_container .nuestro-equipo img{

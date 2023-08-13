@@ -10,6 +10,7 @@
     --border-radius_buttons: 8px;
     --container-width: 1080px;
     --footer-color: #002A3F;
+    --max-width-mobile: 620px;
 }
 
 *{
@@ -593,6 +594,8 @@ form>.content{
 .otros-servicios_container>.cards{
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .otros-servicios_container>.cards>.card{
@@ -844,7 +847,13 @@ form>.content{
     .form_container{
         flex-direction: column;
         width: 100%;
-        padding: 15px;
+        max-width: var(--max-width-mobile);
+        padding: 30px;
+    }
+
+    .contactos_container>.content>a{
+        text-align: center;
+        justify-content: center;
     }
 
     .form_container>.divider-vertical{
@@ -869,6 +878,7 @@ form>.content{
 
     .main_container{
         width: 100%;
+        max-width: var(--max-width-mobile);
         padding: 15px;
     }
 
